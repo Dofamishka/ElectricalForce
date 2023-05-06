@@ -727,8 +727,9 @@ hr {
   transition: background-color 0.6 ease;
 }
 
-.actives dot:hover {
-  background-color: #741818;
+.actives,
+dot:hover {
+  background-color: #505050;
 }
 
 .fade {
@@ -764,6 +765,7 @@ hr {
 
 .card__item__gallery {
   width: 278px;
+  padding-top: 25px;
   background-color: #ffb342;
 }
 
